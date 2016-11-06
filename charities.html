@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- need this for the searchbar -->
+<link rel="stylesheet" href="search.css">
+
+
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Cruutch</a>
+            </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="index.html#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="search.html">Search</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="reviews.html">Review</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="charities.html">Donate</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="index.html#contact">Creators</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <section id = "searchbar" >
+    <div class="flexsearch">
+        <div class="flexsearch--wrapper">
+            <form class="flexsearch--form" action="#" method="post">
+                <div class="flexsearch--input-wrapper">
+                    <input class="flexsearch--input" type="search" placeholder="search for a place">
+                </div>
+                <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <script language="JavaScript">
+
+        function showInput() {
+            document.getElementById('displayName').innerHTML =
+                document.getElementById("name_input").value;
+            document.getElementById('date').innerHTML = new Date();
+            <!-- try to parse date/time? -->
+            document.getElementById('displayWheelChair').innerHTML = "Wheelchair Accessible? "
+                + document.getElementById("wheelChair_input").value;
+            document.getElementbyId('displayComment').innerHTML = "Additional Comments: "
+        + document.getElementsById("comment_input").value;
+        }
+      </script>
+
+
+
+<section class="bg-primary" id="donate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Gain Points to Donate to Charity</h2>
+                    <hr class="light">
+                    <p> Gain points by posting reviews about how disability-friendly businesses are.
+                    Details such as door widths, spacing between tables, and bathroom accessibility can be crucial
+                drivers in deciding what places individuals with disabilities may consider visiting. We would like to make
+                society more disability-friendly and have more accessible spaces.</p>
+                    <p> You are rewarded one point per review you write, and you can build up points to donate
+                    money to charity! You raise $1 for every 10 points or reviews you write, which you can contribute to a
+                    disabilities non-profit or charity of your choice!</p>
+                    <a href="#charities" class="page-scroll btn btn-default btn-xl sr-button">Check out our featured charities</a>
+                    <p> or view the full list <a href="#fullList" class="page-scroll"><font color="ffffff"><u> here </u></font></a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="charities">
+           <div class="container-fluid">
+               <div class="row no-gutter">
+                   <div class="col-lg-4 col-sm-6">
+                       <a href="charities/autismscience.jpg" class="portfolio-box">
+                           <img src="charities/autismscience.jpg" class="img-responsive resize" alt="">
+                           <div class="portfolio-box-caption">
+                               <div class="portfolio-box-caption-content">
+                                   <div class="project-category text-faded">
+                                       Non-Profit
+                                   </div>
+                                   <div class="project-name">
+                                       Autism Science Foundation
+                                   </div>
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="col-lg-4 col-sm-6">
+                       <a href="charities/lindseys_place.jpg" class="portfolio-box">
+                           <img src="charities/lindseys_place.jpg" class="img-responsive resize"  alt="">
+                           <div class="portfolio-box-caption">
+                               <div class="portfolio-box-caption-content">
+                                   <div class="project-category text-faded">
+                                       Non-Profit
+                                   </div>
+                                   <div class="project-name">
+                                       Lindsey's Place
+                                   </div>
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="col-lg-4 col-sm-6">
+                       <a href="charities/WarriorsForAutism.png" class="portfolio-box">
+                           <img src="charities/WarriorsForAutism.png" class="img-responsive resize" alt="">
+                           <div class="portfolio-box-caption">
+                               <div class="portfolio-box-caption-content">
+                                   <div class="project-category text-faded">
+                                       Non-Profit
+                                   </div>
+                                   <div class="project-name">
+                                       Warriors For Autism
+                                   </div>
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="col-lg-4 col-sm-6">
+                       <a href="charities/Variety.jpg" class="portfolio-box">
+                           <img src="charities/Variety.jpg" class="img-responsive resize" alt="">
+                           <div class="portfolio-box-caption">
+                               <div class="portfolio-box-caption-content">
+                                   <div class="project-category text-faded">
+                                       Charity
+                                   </div>
+                                   <div class="project-name">
+                                       Variety - The Children's Charity of Wisconsin
+                                   </div>
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="col-lg-4 col-sm-6">
+                       <a href="charities/supportFamily.jpg" class="portfolio-box">
+                           <img src="charities/supportFamily.jpg" class="img-responsive resize" alt="">
+                           <div class="portfolio-box-caption">
+                               <div class="portfolio-box-caption-content">
+                                   <div class="project-category text-faded">
+                                       Non-Profit
+                                   </div>
+                                   <div class="project-name">
+                                       Support For Families of Children With Disabilities
+                                   </div>
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="col-lg-4 col-sm-6">
+                       <a href="charities/BDF.png" class="portfolio-box">
+                           <img src="charities/BDF.png" class="img-responsive resize" alt="">
+                           <div class="portfolio-box-caption">
+                               <div class="portfolio-box-caption-content">
+                                   <div class="project-category text-faded">
+                                       Non-Profit
+                                   </div>
+                                   <div class="project-name">
+                                       Best Day Foundation
+                                   </div>
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+      <section id="fullList">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-12 text-left">
+                       <h2 class="section-heading">Disabilities Charities</h2>
+                       <hr class="light">
+                       <ul>
+                           <li><a href="#">One </a> </li>
+                           <li><a href="#">Two </a> </li>
+                           <li><a href="#">Three </a> </li>
+                       </ul>
+                  </div>
+               </div>
+          </div>
+
+    
+
+
+    
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
